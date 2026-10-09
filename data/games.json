@@ -640,7 +640,7 @@
         "assets/img/games/gta-iv/shot-2.webp",
         "assets/img/games/gta-iv/shot-3.webp"
       ],
-      "videoId": null,
+      "videoId": "fcNuCXw3zHs",
       "shortDescription": "Port experimental de GTA IV para Android por recompilação estática, executado nativamente em ARM64 compatível com GPU Adreno e Vulkan, sem emulador.",
       "description": [
         "Liberty Recomp Android é um port não oficial da recompilação estática de Grand Theft Auto IV para Xbox 360. O jogo executa nativamente em aparelhos Android ARM64 compatíveis, usando Vulkan e o driver Mesa Turnip para GPUs Adreno.",
