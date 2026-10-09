@@ -142,8 +142,7 @@
         "assets/img/games/halo-ce/shot-1.webp",
         "assets/img/games/halo-ce/shot-2.webp",
         "assets/img/games/halo-ce/shot-3.webp"
-      ],
-      "packageName": "org.libsdl.app"
+      ]
     }
   ]
 }
