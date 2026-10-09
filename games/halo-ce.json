@@ -19,7 +19,6 @@
   ],
   "chipsets": [],
   "performance": "medio",
-  "version": "12d9e05",
   "apkSize": "",
   "storage": "~2 GB (dados do jogo no navegador)",
   "updated": "2026-10-02",
@@ -82,5 +81,6 @@
     "originalUrl": "https://www.halowaypoint.com",
     "game": "Decompilação: punpckhdq/halo e bnunu/halo-1 · Port universal: cybersecurity/halo-ce-universal · Licença CC0-1.0"
   },
-  "license": "CC0-1.0"
+  "license": "CC0-1.0",
+  "packageName": "org.libsdl.app"
 }

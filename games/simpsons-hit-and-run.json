@@ -21,7 +21,6 @@
     "PowerVR"
   ],
   "performance": "medio",
-  "version": "0.93",
   "apkSize": "~80 MB (NTSC) / ~81 MB (PAL)",
   "storage": "Vários GB para os arquivos da sua cópia de PC (não incluídos)",
   "updated": "2026-07-24",
@@ -83,5 +82,6 @@
     "game": "The Simpsons: Hit & Run © respectivos titulares; port não oficial"
   },
   "license": "Não informada no repositório do port",
-  "type": "android"
+  "type": "android",
+  "packageName": "com.c4rlox.simpsons"
 }

@@ -22,7 +22,6 @@
     "Mali"
   ],
   "performance": "pesado",
-  "version": "0.6.0",
   "apkSize": "63 MB",
   "storage": "Vários GB livres (dump do jogo)",
   "updated": "2026-09-30",
@@ -89,5 +88,6 @@
     "game": "Sonic Unleashed © SEGA / Sonic Team"
   },
   "license": "GPL-3.0",
-  "type": "android"
+  "type": "android",
+  "packageName": "org.libsdl.app"
 }

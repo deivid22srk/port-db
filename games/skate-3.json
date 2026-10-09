@@ -21,7 +21,6 @@
     "Mali"
   ],
   "performance": "medio",
-  "version": "2.1.0",
   "apkSize": "38 MB",
   "storage": "~8 GiB livres (jogo extraído)",
   "updated": "2026-09-15",
@@ -88,5 +87,6 @@
     "game": "Skate 3 © Electronic Arts / Black Box"
   },
   "license": "Consulte o repositório",
-  "type": "android"
+  "type": "android",
+  "packageName": "chat.buku.skate3"
 }

@@ -27,7 +27,7 @@ const games = catalog.games;
 const sonic = await fetch('./games/sonic-unleashed.json').then(r => r.json());
 ```
 
-Os campos `cover`, `banner` e `screenshots` são caminhos relativos à raiz deste repositório. Os arquivos estão preservados em `assets/img/games/`.
+Cada jogo contém `packageName` com o identificador de pacote Android informado. O campo `version` foi removido. Os campos `cover`, `banner` e `screenshots` são caminhos relativos à raiz deste repositório. Os arquivos estão preservados em `assets/img/games/`.
 
 ## Escopo e direitos
 

@@ -26,7 +26,8 @@
         "assets/img/games/sonic-unleashed/shot-1.svg",
         "assets/img/games/sonic-unleashed/shot-2.svg",
         "assets/img/games/sonic-unleashed/shot-3.svg"
-      ]
+      ],
+      "packageName": "org.libsdl.app"
     },
     {
       "id": "skate-3",
@@ -45,7 +46,8 @@
         "assets/img/games/skate-3/shot-1.svg",
         "assets/img/games/skate-3/shot-2.svg",
         "assets/img/games/skate-3/shot-3.svg"
-      ]
+      ],
+      "packageName": "chat.buku.skate3"
     },
     {
       "id": "csgo-mobile",
@@ -64,7 +66,8 @@
         "assets/img/games/csgo-mobile/shot-1.webp",
         "assets/img/games/csgo-mobile/shot-2.webp",
         "assets/img/games/csgo-mobile/shot-3.webp"
-      ]
+      ],
+      "packageName": "com.ledi.csno"
     },
     {
       "id": "lost-odyssey-recomp",
@@ -83,7 +86,8 @@
         "assets/img/games/lost-odyssey-recomp/shot-1.webp",
         "assets/img/games/lost-odyssey-recomp/shot-2.webp",
         "assets/img/games/lost-odyssey-recomp/shot-3.webp"
-      ]
+      ],
+      "packageName": "io.github.freefrank.lostodyssey"
     },
     {
       "id": "woodyre",
@@ -100,7 +104,8 @@
         "assets/img/games/woodyre/banner.webp",
         "assets/img/games/woodyre/shot-1.webp",
         "assets/img/games/woodyre/shot-2.webp"
-      ]
+      ],
+      "packageName": "io.github.jjmhalew.woodyre"
     },
     {
       "id": "simpsons-hit-and-run",
@@ -117,7 +122,8 @@
         "assets/img/games/simpsons-hit-and-run/banner.webp",
         "assets/img/games/simpsons-hit-and-run/shot-1.webp",
         "assets/img/games/simpsons-hit-and-run/shot-2.webp"
-      ]
+      ],
+      "packageName": "com.c4rlox.simpsons"
     },
     {
       "id": "halo-ce",
@@ -136,7 +142,8 @@
         "assets/img/games/halo-ce/shot-1.webp",
         "assets/img/games/halo-ce/shot-2.webp",
         "assets/img/games/halo-ce/shot-3.webp"
-      ]
+      ],
+      "packageName": "org.libsdl.app"
     }
   ]
 }

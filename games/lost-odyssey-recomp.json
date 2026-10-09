@@ -14,7 +14,6 @@
     "Experimental"
   ],
   "chipsets": [],
-  "version": "0.8.0",
   "apkSize": "44 MB",
   "storage": "Vários GB livres (dados dos 4 discos do jogo)",
   "updated": "2026-10-03",
@@ -77,5 +76,6 @@
     "game": "Lost Odyssey © Mistwalker / Microsoft"
   },
   "license": "GPL-3.0",
-  "type": "android"
+  "type": "android",
+  "packageName": "io.github.freefrank.lostodyssey"
 }

@@ -71,5 +71,6 @@
     "game": "Counter-Strike: Global Offensive © Valve"
   },
   "license": "Port não oficial — todos os direitos do jogo pertencem à Valve",
-  "type": "android"
+  "type": "android",
+  "packageName": "com.ledi.csno"
 }

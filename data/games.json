@@ -32,7 +32,6 @@
         "Mali"
       ],
       "performance": "pesado",
-      "version": "0.6.0",
       "apkSize": "63 MB",
       "storage": "Vários GB livres (dump do jogo)",
       "updated": "2026-09-30",
@@ -99,7 +98,8 @@
         "game": "Sonic Unleashed © SEGA / Sonic Team"
       },
       "license": "GPL-3.0",
-      "type": "android"
+      "type": "android",
+      "packageName": "org.libsdl.app"
     },
     {
       "id": "skate-3",
@@ -124,7 +124,6 @@
         "Mali"
       ],
       "performance": "medio",
-      "version": "2.1.0",
       "apkSize": "38 MB",
       "storage": "~8 GiB livres (jogo extraído)",
       "updated": "2026-09-15",
@@ -191,7 +190,8 @@
         "game": "Skate 3 © Electronic Arts / Black Box"
       },
       "license": "Consulte o repositório",
-      "type": "android"
+      "type": "android",
+      "packageName": "chat.buku.skate3"
     },
     {
       "id": "csgo-mobile",
@@ -266,7 +266,8 @@
         "game": "Counter-Strike: Global Offensive © Valve"
       },
       "license": "Port não oficial — todos os direitos do jogo pertencem à Valve",
-      "type": "android"
+      "type": "android",
+      "packageName": "com.ledi.csno"
     },
     {
       "id": "lost-odyssey-recomp",
@@ -284,7 +285,6 @@
         "Experimental"
       ],
       "chipsets": [],
-      "version": "0.8.0",
       "apkSize": "44 MB",
       "storage": "Vários GB livres (dados dos 4 discos do jogo)",
       "updated": "2026-10-03",
@@ -347,7 +347,8 @@
         "game": "Lost Odyssey © Mistwalker / Microsoft"
       },
       "license": "GPL-3.0",
-      "type": "android"
+      "type": "android",
+      "packageName": "io.github.freefrank.lostodyssey"
     },
     {
       "id": "woodyre",
@@ -368,7 +369,6 @@
       ],
       "chipsets": [],
       "performance": "leve",
-      "version": "1.0.4",
       "apkSize": "4,7 MB",
       "storage": "~640 MB para os dados do CD (importados pelo usuário)",
       "updated": "2026-10-05",
@@ -429,7 +429,8 @@
         "game": "Woody Woodpecker e marcas relacionadas pertencem aos respectivos titulares"
       },
       "license": "GPL-3.0-or-later (código do port)",
-      "type": "android"
+      "type": "android",
+      "packageName": "io.github.jjmhalew.woodyre"
     },
     {
       "id": "simpsons-hit-and-run",
@@ -454,7 +455,6 @@
         "PowerVR"
       ],
       "performance": "medio",
-      "version": "0.93",
       "apkSize": "~80 MB (NTSC) / ~81 MB (PAL)",
       "storage": "Vários GB para os arquivos da sua cópia de PC (não incluídos)",
       "updated": "2026-07-24",
@@ -516,7 +516,8 @@
         "game": "The Simpsons: Hit & Run © respectivos titulares; port não oficial"
       },
       "license": "Não informada no repositório do port",
-      "type": "android"
+      "type": "android",
+      "packageName": "com.c4rlox.simpsons"
     },
     {
       "id": "halo-ce",
@@ -539,7 +540,6 @@
       ],
       "chipsets": [],
       "performance": "medio",
-      "version": "12d9e05",
       "apkSize": "",
       "storage": "~2 GB (dados do jogo no navegador)",
       "updated": "2026-10-02",
@@ -602,7 +602,8 @@
         "originalUrl": "https://www.halowaypoint.com",
         "game": "Decompilação: punpckhdq/halo e bnunu/halo-1 · Port universal: cybersecurity/halo-ce-universal · Licença CC0-1.0"
       },
-      "license": "CC0-1.0"
+      "license": "CC0-1.0",
+      "packageName": "org.libsdl.app"
     }
   ]
 }
