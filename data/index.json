@@ -16,16 +16,16 @@
       "cover": "assets/img/games/sonic-unleashed/cover.svg",
       "banner": "assets/img/games/sonic-unleashed/banner.svg",
       "screenshots": [
-        "assets/img/games/sonic-unleashed/shot-1.svg",
-        "assets/img/games/sonic-unleashed/shot-2.svg",
-        "assets/img/games/sonic-unleashed/shot-3.svg"
+        "assets/img/games/sonic-unleashed/shot-1.webp",
+        "assets/img/games/sonic-unleashed/shot-2.webp",
+        "assets/img/games/sonic-unleashed/shot-3.webp"
       ],
       "assets": [
         "assets/img/games/sonic-unleashed/cover.svg",
         "assets/img/games/sonic-unleashed/banner.svg",
-        "assets/img/games/sonic-unleashed/shot-1.svg",
-        "assets/img/games/sonic-unleashed/shot-2.svg",
-        "assets/img/games/sonic-unleashed/shot-3.svg"
+        "assets/img/games/sonic-unleashed/shot-1.webp",
+        "assets/img/games/sonic-unleashed/shot-2.webp",
+        "assets/img/games/sonic-unleashed/shot-3.webp"
       ],
       "packageName": "org.libsdl.app"
     },

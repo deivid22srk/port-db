@@ -43,9 +43,9 @@
       "cover": "assets/img/games/sonic-unleashed/cover.svg",
       "banner": "assets/img/games/sonic-unleashed/banner.svg",
       "screenshots": [
-        "assets/img/games/sonic-unleashed/shot-1.svg",
-        "assets/img/games/sonic-unleashed/shot-2.svg",
-        "assets/img/games/sonic-unleashed/shot-3.svg"
+        "assets/img/games/sonic-unleashed/shot-1.webp",
+        "assets/img/games/sonic-unleashed/shot-2.webp",
+        "assets/img/games/sonic-unleashed/shot-3.webp"
       ],
       "videoId": null,
       "shortDescription": "Jogue a versão de Xbox 360 de Sonic Unleashed nativamente no Android, via recompilação estática — com controles de toque, suporte a gamepad e gerenciador de mods.",
