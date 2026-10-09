@@ -1,0 +1,93 @@
+{
+  "id": "sonic-unleashed",
+  "title": "Sonic Unleashed",
+  "port": "UnleashedRecomp Android",
+  "original": "Xbox 360 (2008)",
+  "categories": [
+    "plataforma",
+    "acao",
+    "aventura"
+  ],
+  "tags": [
+    "Snapdragon",
+    "Adreno",
+    "Mali",
+    "Controle",
+    "Toque",
+    "Mods",
+    "Vulkan"
+  ],
+  "chipsets": [
+    "Snapdragon",
+    "Mali"
+  ],
+  "performance": "pesado",
+  "version": "0.6.0",
+  "apkSize": "63 MB",
+  "storage": "Vários GB livres (dump do jogo)",
+  "updated": "2026-09-30",
+  "dateAdded": "2026-10-03",
+  "status": "ativo",
+  "statusLabel": "Ativo",
+  "featured": true,
+  "downloads": 66460,
+  "cover": "assets/img/games/sonic-unleashed/cover.svg",
+  "banner": "assets/img/games/sonic-unleashed/banner.svg",
+  "screenshots": [
+    "assets/img/games/sonic-unleashed/shot-1.svg",
+    "assets/img/games/sonic-unleashed/shot-2.svg",
+    "assets/img/games/sonic-unleashed/shot-3.svg"
+  ],
+  "videoId": null,
+  "shortDescription": "Jogue a versão de Xbox 360 de Sonic Unleashed nativamente no Android, via recompilação estática — com controles de toque, suporte a gamepad e gerenciador de mods.",
+  "description": [
+    "UnleashedRecomp Android é um port não oficial de Unleashed Recompiled, o projeto que roda Sonic Unleashed de Xbox 360 através de recompilação estática — sem emular o console. O resultado é um jogo que roda como código nativo ARM64, com aplicativo Android próprio, controles de toque com multitoque, suporte a gamepad, gerenciador de mods e um driver Vulkan customizado para várias GPUs Adreno da Qualcomm.",
+    "O port inclui o jogo completo, instalação de mods HMM/UMM direto no app, atualizações assinadas dentro do próprio launcher e um editor de layout dos controles na tela — o D-pad vira analógico em menus e tudo se resume a um botão SKIP nas cutscenes. Não é preciso PC em nenhum momento da instalação: o app aceita seu dump do jogo em ZIP ou pasta e faz tudo pelo celular.",
+    "Importante: este projeto não inclui o jogo. Você precisa dos arquivos da sua própria cópia legal de Sonic Unleashed para Xbox 360. Trata-se de um port experimental mantido pela comunidade — desempenho e estabilidade variam conforme aparelho, versão do Android e driver de GPU."
+  ],
+  "requirements": {
+    "minimo": {
+      "Sistema": "Android 10 ou mais novo (aparelho 64 bits)",
+      "GPU": "Adreno 6xx/7xx — outros Adreno podem funcionar, sem garantia",
+      "Mali (experimental)": "Gerações Valhall ou mais novas com Vulkan 1.3 (G610/G615/G710/G715/G720)",
+      "Armazenamento": "Vários GB livres",
+      "Mídia": "Seu próprio dump de Sonic Unleashed para Xbox 360"
+    },
+    "recomendado": {
+      "GPU": "Adreno 710, 725, 732 ou 750 — alvos principais de desenvolvimento (driver Turnip incluso)",
+      "Adreno 710": "Usar a opção “Adreno 710 (Vauzi)” com render mode Auto (Sysmem)",
+      "Controle": "Gamepad Bluetooth ou USB (suporte SDL, sem configuração)",
+      "Extras": "Escala de resolução 50% e sem AA por padrão; ajuste fino nas opções de vídeo"
+    }
+  },
+  "chipsetRecommended": "Snapdragon com Adreno 710/725/732/750; Mali moderno roda pelo driver do sistema (experimental)",
+  "controls": [
+    "Controles de toque com multitoque e controle de câmera por arraste",
+    "Editor de layout: reposicione e redimensione cada botão",
+    "Layout adaptativo: D-pad em menus, botão SKIP nas cutscenes",
+    "Gamepads Bluetooth e USB suportados pelo SDL, sem configuração extra"
+  ],
+  "install": [
+    "Baixe o APK mais recente na página de Releases do repositório oficial.",
+    "Permita a instalação de apps de fontes desconhecidas quando o Android pedir.",
+    "Instale e abra o UnleashedRecomp — o primeiro uso cria as pastas do app e prepara o driver gráfico incluso.",
+    "Toque em “Install game files (.zip / folder)” e selecione seu dump do jogo (ZIP ou pasta com game/update/dlc). O app localiza, copia e verifica tudo sozinho.",
+    "Toque em “Launch game” e divirta-se. Para DLC depois, use o mesmo instalador com os pacotes de DLC — não precisa reinstalar o jogo base."
+  ],
+  "notes": "Port experimental: mantenha cópias dos seus saves e arquivos do jogo. Mods só de desktop (que dependem de DLLs do Windows) não funcionam no Android. Créditos: hedge-dev e equipe (projeto original), SansNope, ITSeniy, GdGohan, puopg e toda a comunidade de testes.",
+  "links": {
+    "github": "https://github.com/SansNope/UnleashedRecomp-Android",
+    "releases": "https://github.com/SansNope/UnleashedRecomp-Android/releases",
+    "download": "https://github.com/SansNope/UnleashedRecomp-Android/releases",
+    "tutorial": "https://www.youtube.com/@Hail-Games1"
+  },
+  "credit": {
+    "port": "SansNope e contribuidores (ITSeniy, GdGohan, puopg e outros)",
+    "portUrl": "https://github.com/SansNope/UnleashedRecomp-Android",
+    "original": "hedge-dev — Unleashed Recompiled",
+    "originalUrl": "https://github.com/hedge-dev/UnleashedRecomp",
+    "game": "Sonic Unleashed © SEGA / Sonic Team"
+  },
+  "license": "GPL-3.0",
+  "type": "android"
+}

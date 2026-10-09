@@ -1,0 +1,92 @@
+{
+  "id": "skate-3",
+  "title": "Skate 3",
+  "port": "Skate 3 Mobile",
+  "original": "Xbox 360 (2010)",
+  "categories": [
+    "esporte"
+  ],
+  "tags": [
+    "Snapdragon",
+    "Unisoc",
+    "Mali",
+    "Controle",
+    "Toque",
+    "Vulkan",
+    "Handheld"
+  ],
+  "chipsets": [
+    "Snapdragon",
+    "Unisoc",
+    "Mali"
+  ],
+  "performance": "medio",
+  "version": "2.1.0",
+  "apkSize": "38 MB",
+  "storage": "~8 GiB livres (jogo extraído)",
+  "updated": "2026-09-15",
+  "dateAdded": "2026-10-03",
+  "status": "ativo",
+  "statusLabel": "Ativo (build dev)",
+  "featured": true,
+  "downloads": 36476,
+  "cover": "assets/img/games/skate-3/cover.svg",
+  "banner": "assets/img/games/skate-3/banner.svg",
+  "screenshots": [
+    "assets/img/games/skate-3/shot-1.svg",
+    "assets/img/games/skate-3/shot-2.svg",
+    "assets/img/games/skate-3/shot-3.svg"
+  ],
+  "videoId": null,
+  "shortDescription": "Skate 3 rodando como código ARM64 nativo no Android, com renderização Vulkan, instalador só no celular e perfis gráficos para handhelds e aparelhos tops de linha.",
+  "description": [
+    "Skate 3 Mobile roda Skate 3 como código nativo ARM64 no Android através de recompilação estática — não é um emulador de Xbox 360. O projeto é um fork do Skate3Recomp, de Alex McHugh, com o renderer Vulkan nativo do jogo e adições próprias para Android: entrada e áudio nativos, armazenamento, perfis de desempenho e ajustes para handhelds.",
+    "A instalação é 100% no celular: você baixa um único APK, seleciona a ISO da sua própria cópia de Skate 3 e o instalador extrai (~6 GiB) e verifica o Title Update 3 suportado automaticamente. Não precisa de computador, ferramenta de desenvolvedor nem app de extração. A partir da v2.0.8 o próprio app checa e instala atualizações assinadas com verificação SHA-256.",
+    "O mesmo APK traz dois perfis gráficos: Performance (pensado no Anbernic RG406V, primeiro aparelho verificado) e High-End/Quality (cena interna em 1280x720, MSAA 2x, sombras, SSAO, bloom e luz volumétrica). Usuários de Snapdragon/Adreno podem importar drivers Turnip experimentais em Advanced Options — aparelhos Mali ficam no driver do sistema.",
+    "Importante: o repositório não distribui arquivos do jogo. Você precisa da ISO da sua própria cópia legal de Skate 3 (executáveis de varejo EUA/Europa, verificados por SHA-256). Este é um build de desenvolvedor — software experimental: espere bugs visuais e diferenças de desempenho entre aparelhos."
+  ],
+  "requirements": {
+    "minimo": {
+      "Sistema": "Android 13 ou mais novo (ARM64)",
+      "CPU": "ARMv8.2 com suporte a FP16 e dot-product",
+      "GPU": "Vulkan",
+      "Armazenamento": "Cerca de 8 GiB livres após a extração",
+      "Mídia": "ISO da sua própria cópia de Skate 3 (EUA/Europa)"
+    },
+    "recomendado": {
+      "Aparelho": "Snapdragon/Adreno mais novos (bons candidatos, nem todos testados) ou handhelds — Anbernic RG406V (Unisoc T820 / Mali-G57) é o aparelho verificado",
+      "Controle": "Gamepad físico ou controle multitoque embutido para celular",
+      "Perfil gráfico": "High-End/Quality para aparelhos rápidos; Performance para handhelds"
+    }
+  },
+  "chipsetRecommended": "Snapdragon/Adreno recentes; Unisoc T820 (RG406V) verificado; Mali usa driver do sistema",
+  "controls": [
+    "Controle multitoque embutido para celular (overlay XInput nativo)",
+    "Gamepads físicos e controles embutidos de handhelds suportados (SDL3)",
+    "Menu do recomp em RB + Start para perfis gráficos e mods"
+  ],
+  "install": [
+    "Baixe o APK mais recente (Skate3-Mobile-Android.apk) na página de Releases.",
+    "Instale e abra o Skate 3 Mobile.",
+    "Toque em “Select My Skate 3 ISO” e escolha uma ISO gerada da sua própria cópia de Xbox 360.",
+    "Mantenha o app aberto enquanto ele extrai cerca de 6 GiB e baixa/verifica o Title Update 3 (1,7 MiB).",
+    "Toque em “Play Skate 3”. Dica: se a ISO ficar no armazenamento interno, reserve ~15 GiB temporários; dá para apagar a ISO depois da instalação."
+  ],
+  "notes": "Build de desenvolvedor (v2.1.0): software experimental em desenvolvimento ativo. Créditos: Alex McHugh (Skate3Recomp), Andrew Nakas, AlanConstantino e Buku313 (Antonio Seevers). Projetos usados: rexglue, Xenia, SDL, libadrenotools, Vulkan, FFmpeg. Projeto de fã não oficial, sem afiliação com EA, Black Box ou Microsoft.",
+  "links": {
+    "github": "https://github.com/Buku313/Skate3-Mobile",
+    "releases": "https://github.com/Buku313/Skate3-Mobile/releases",
+    "download": "https://github.com/Buku313/Skate3-Mobile/releases/latest/download/Skate3-Mobile-Android.apk",
+    "site": "https://buku313.github.io/Skate3-Mobile/",
+    "tutorial": "https://www.youtube.com/@Hail-Games1"
+  },
+  "credit": {
+    "port": "Buku313 (Antonio Seevers) — fork Android ARM64",
+    "portUrl": "https://github.com/Buku313/Skate3-Mobile",
+    "original": "Alex McHugh (mchughalex) — Skate3Recomp",
+    "originalUrl": "https://github.com/mchughalex/skate3recomp",
+    "game": "Skate 3 © Electronic Arts / Black Box"
+  },
+  "license": "Consulte o repositório",
+  "type": "android"
+}
