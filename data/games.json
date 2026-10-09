@@ -603,6 +603,95 @@
         "game": "Decompilação: punpckhdq/halo e bnunu/halo-1 · Port universal: cybersecurity/halo-ce-universal · Licença CC0-1.0"
       },
       "license": "CC0-1.0"
+    },
+    {
+      "id": "gta-iv",
+      "title": "Grand Theft Auto IV",
+      "port": "Liberty Recomp Android",
+      "original": "Xbox 360 (2008)",
+      "categories": [
+        "acao",
+        "aventura"
+      ],
+      "tags": [
+        "Snapdragon",
+        "Adreno",
+        "Vulkan",
+        "Controle",
+        "Toque",
+        "Recompilação estática"
+      ],
+      "chipsets": [
+        "Snapdragon"
+      ],
+      "performance": "pesado",
+      "apkSize": "≈50 MB",
+      "storage": "≈7 GB para o jogo instalado; reserve cerca de 15 GB livres durante a instalação",
+      "updated": "2026-10-09",
+      "dateAdded": "2026-10-09",
+      "status": "ativo",
+      "statusLabel": "Experimental",
+      "featured": false,
+      "downloads": 0,
+      "cover": "assets/img/games/gta-iv/cover.webp",
+      "banner": "assets/img/games/gta-iv/banner.webp",
+      "screenshots": [
+        "assets/img/games/gta-iv/shot-1.webp",
+        "assets/img/games/gta-iv/shot-2.webp",
+        "assets/img/games/gta-iv/shot-3.webp"
+      ],
+      "videoId": null,
+      "shortDescription": "Port experimental de GTA IV para Android por recompilação estática, executado nativamente em ARM64 compatível com GPU Adreno e Vulkan, sem emulador.",
+      "description": [
+        "Liberty Recomp Android é um port não oficial da recompilação estática de Grand Theft Auto IV para Xbox 360. O jogo executa nativamente em aparelhos Android ARM64 compatíveis, usando Vulkan e o driver Mesa Turnip para GPUs Adreno.",
+        "O projeto está em fase experimental e foi testado principalmente no Retroid Pocket 5 (Snapdragon 865 / Adreno 650). O README do projeto relata gameplay em torno de 30 FPS na maior parte do tempo, além de possíveis quedas e encerramentos inesperados. O controle por toque está disponível, mas o uso de um gamepad é recomendado.",
+        "O port não inclui os arquivos do jogo. É necessário possuir uma cópia legal da versão Xbox 360 dos EUA (NTSC-U) e o Title Update 8 compatível. Episódios adicionais e multiplayer não foram testados no Android."
+      ],
+      "requirements": {
+        "minimo": {
+          "Sistema": "Android 10 ou mais recente (64 bits)",
+          "CPU": "ARM64 com ARMv8.2-A e suporte a LSE atomics",
+          "GPU": "Qualcomm Adreno 6xx/7xx com Vulkan 1.2; GPUs Mali/Immortalis, Samsung Xclipse e PowerVR não são suportadas",
+          "Armazenamento": "Cerca de 7 GB para o jogo instalado; aproximadamente 15 GB livres recomendados durante a instalação",
+          "Arquivos": "ISO NTSC-U do GTA IV para Xbox 360 e Title Update 8 da mesma versão — não incluídos"
+        },
+        "recomendado": {
+          "Aparelho": "Snapdragon 865 ou mais recente; Adreno 650 foi o aparelho-base de testes",
+          "GPU": "Adreno 8xx é experimental e pode exigir importação manual de um driver Turnip compatível",
+          "RAM": "8 GB recomendados; 6 GB ainda não testados",
+          "Controle": "Gamepad XInput (layout Xbox) recomendado"
+        }
+      },
+      "chipsetRecommended": "Snapdragon 865 ou mais recente com GPU Adreno; Adreno 8xx experimental",
+      "controls": [
+        "Gamepad XInput (layout Xbox) recomendado; controles Bluetooth e USB podem funcionar via SDL",
+        "Gamepad virtual de toque na tela disponível, ainda experimental e com testes limitados"
+      ],
+      "install": [
+        "Baixe o APK na página oficial de Releases do LibertyRecompAndroid.",
+        "Instale e abra o launcher do aplicativo.",
+        "Selecione sua ISO legal do GTA IV para Xbox 360 (versão NTSC-U dos EUA) e o Title Update 8 correspondente.",
+        "Use a opção Install, aguarde a instalação terminar e então selecione Play.",
+        "Não baixe nem distribua ISOs, dumps ou arquivos de jogo; use apenas sua cópia legal."
+      ],
+      "notes": "Port de fã, não oficial e experimental, com relatos de crashes e compatibilidade limitada. O repositório port-db não distribui o jogo, ISO, Title Update ou APK. A capa foi preparada a partir da captura de gameplay publicada no README do projeto; os três screenshots da galeria foram fornecidos pelo usuário.",
+      "links": {
+        "github": "https://github.com/vaduur/LibertyRecompAndroid",
+        "releases": "https://github.com/vaduur/LibertyRecompAndroid/releases",
+        "download": "https://github.com/vaduur/LibertyRecompAndroid/releases/latest",
+        "tutorial": "https://github.com/vaduur/LibertyRecompAndroid/blob/main/docs/android/INSTALL.md",
+        "reference": "https://github.com/OZORDI/LibertyRecomp"
+      },
+      "credit": {
+        "port": "vaduur e colaboradores",
+        "portUrl": "https://github.com/vaduur/LibertyRecompAndroid",
+        "original": "OZORDI e colaboradores — Liberty Recompiled",
+        "originalUrl": "https://github.com/OZORDI/LibertyRecomp",
+        "game": "Grand Theft Auto IV © Rockstar Games / Take-Two Interactive"
+      },
+      "license": "GPL-3.0",
+      "type": "android",
+      "packageName": "com.libertyrecomp"
     }
   ]
 }

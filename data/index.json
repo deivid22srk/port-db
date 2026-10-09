@@ -7,7 +7,7 @@
     "telegram": "https://t.me/hailgames2",
     "github": "https://github.com/deivid22srk/port-droid"
   },
-  "gameCount": 7,
+  "gameCount": 8,
   "games": [
     {
       "id": "sonic-unleashed",
@@ -143,6 +143,26 @@
         "assets/img/games/halo-ce/shot-2.webp",
         "assets/img/games/halo-ce/shot-3.webp"
       ]
+    },
+    {
+      "id": "gta-iv",
+      "title": "Grand Theft Auto IV",
+      "json": "games/gta-iv.json",
+      "cover": "assets/img/games/gta-iv/cover.webp",
+      "banner": "assets/img/games/gta-iv/banner.webp",
+      "screenshots": [
+        "assets/img/games/gta-iv/shot-1.webp",
+        "assets/img/games/gta-iv/shot-2.webp",
+        "assets/img/games/gta-iv/shot-3.webp"
+      ],
+      "assets": [
+        "assets/img/games/gta-iv/cover.webp",
+        "assets/img/games/gta-iv/banner.webp",
+        "assets/img/games/gta-iv/shot-1.webp",
+        "assets/img/games/gta-iv/shot-2.webp",
+        "assets/img/games/gta-iv/shot-3.webp"
+      ],
+      "packageName": "com.libertyrecomp"
     }
   ]
 }

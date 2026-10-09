@@ -6,7 +6,7 @@ Base de dados em JSON extraída de [https://github.com/deivid22srk/port-droid](h
 
 - `data/games.json` — catálogo completo na estrutura original (`site` e lista `games`).
 - `data/index.json` — índice compacto de registros e caminhos de imagens.
-- `games/<id>.json` — um arquivo JSON por jogo, com nome, descrições, requisitos, links, créditos e metadados.
+- `games/<id>.json` — um arquivo JSON por jogo, com nome, pacote Android quando informado, descrições, requisitos, links e créditos.
 - `assets/img/games/<id>/` — capas, banners e screenshots referenciados pelos JSONs.
 
 ## Jogos incluídos
@@ -18,6 +18,7 @@ Base de dados em JSON extraída de [https://github.com/deivid22srk/port-droid](h
 - `woodyre` — Woody Woodpecker: Escape from Buzz Buzzard Park
 - `simpsons-hit-and-run` — The Simpsons: Hit & Run
 - `halo-ce` — Halo: Combat Evolved
+- `gta-iv` — Grand Theft Auto IV
 
 ## Uso rápido
 
@@ -27,7 +28,11 @@ const games = catalog.games;
 const sonic = await fetch('./games/sonic-unleashed.json').then(r => r.json());
 ```
 
-Cada jogo contém `packageName` com o identificador de pacote Android informado. O campo `version` foi removido. Os campos `cover`, `banner` e `screenshots` são caminhos relativos à raiz deste repositório. Os arquivos estão preservados em `assets/img/games/`.
+Os registros incluem `packageName` quando informado. O campo `version` não é usado. Os campos `cover`, `banner` e `screenshots` são caminhos relativos à raiz deste repositório. Os arquivos estão preservados em `assets/img/games/`.
+
+## Imagens
+
+As imagens de GTA IV seguem a resolução indicada no README do projeto de origem: capa WebP **720×960 (3:4)** e banner/screenshots WebP **1280×720 (16:9)**. Os screenshots enviados em 1200×540 foram encaixados no canvas 1280×720 preservando o conteúdo completo.
 
 ## Escopo e direitos
 
