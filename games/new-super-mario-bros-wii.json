@@ -1,0 +1,92 @@
+{
+  "id": "new-super-mario-bros-wii",
+  "title": "New Super Mario Bros. Wii",
+  "port": "NSMBW Multiplayer Recompilation",
+  "original": "Nintendo Wii (2009)",
+  "categories": [
+    "plataforma",
+    "aventura"
+  ],
+  "tags": [
+    "Co-op",
+    "Multiplayer",
+    "LAN",
+    "Tailscale",
+    "Android",
+    "Windows",
+    "Vulkan",
+    "Toque",
+    "Inclinação",
+    "Shake"
+  ],
+  "chipsets": [
+    "Snapdragon"
+  ],
+  "performance": "medio",
+  "apkSize": "≈133 MB",
+  "storage": "Cerca de 1 GB livre para o app, os dados do jogo e a importação",
+  "updated": "2026-10-10",
+  "dateAdded": "2026-10-10",
+  "status": "ativo",
+  "statusLabel": "Ativo",
+  "featured": false,
+  "downloads": 0,
+  "cover": "assets/img/games/new-super-mario-bros-wii/cover.webp",
+  "banner": "assets/img/games/new-super-mario-bros-wii/banner.webp",
+  "screenshots": [
+    "assets/img/games/new-super-mario-bros-wii/shot-1.webp",
+    "assets/img/games/new-super-mario-bros-wii/shot-2.webp"
+  ],
+  "videoId": null,
+  "shortDescription": "Recompilação nativa de New Super Mario Bros. Wii para Android e Windows, com multiplayer de até quatro jogadores por LAN ou Tailscale e controles por toque, inclinação e movimento.",
+  "description": [
+    "NSMBW Multiplayer Recompilation é uma versão nativa de New Super Mario Bros. Wii para Android e Windows, produzida por recompilação estática com base no WiiCompiled. O jogo não roda através de um emulador.",
+    "O modo cooperativo permite até quatro jogadores em uma combinação de celulares e PCs. As salas podem ser encontradas na rede Wi-Fi local ou pela internet usando Tailscale; cada dispositivo executa o jogo e sincroniza as entradas dos jogadores.",
+    "No Android, há um Wii Remote virtual na tela, com controles táteis ajustáveis, inclinação do telefone e gesto de sacudir. O projeto informa execução a 60 FPS em aparelhos como Snapdragon 6 Gen 1 e Snapdragon 8 Elite Gen 5; GPUs Mali ainda não foram testadas.",
+    "O projeto e os releases não incluem os arquivos do jogo. É necessário usar uma cópia própria da versão dos EUA, ID SMNE01, revisão 1, extraída com Dolphin em um computador."
+  ],
+  "requirements": {
+    "minimo": {
+      "Sistema": "Android 11 ou mais recente, em aparelho ARM64",
+      "GPU": "Vulkan; GPUs Adreno foram testadas, Mali ainda não foi testada",
+      "Armazenamento": "Aproximadamente 1 GB livre para o app, os dados do jogo e a importação",
+      "Jogo": "Cópia própria da versão dos EUA, ID SMNE01, revisão 1; extração feita com Dolphin em um computador"
+    },
+    "recomendado": {
+      "Aparelho": "Snapdragon 6 Gen 1 ou mais recente; aparelhos com Adreno 710 e Adreno 840 foram testados",
+      "Rede": "Wi-Fi para multiplayer local; Tailscale para jogar pela internet",
+      "Jogadores": "Até quatro dispositivos, em qualquer combinação de Android e Windows"
+    }
+  },
+  "chipsetRecommended": "Snapdragon 6 Gen 1 ou mais recente com Vulkan; compatibilidade com Mali ainda não confirmada",
+  "controls": [
+    "Wii Remote virtual na horizontal, com D-pad e botões 1, 2, A, + e −",
+    "Tela sensível ao toque, com opacidade e vibração ajustáveis",
+    "Incline o aparelho como volante e sacuda-o para ações do jogo; ambos podem ser desativados",
+    "Multiplayer cooperativo por LAN ou Tailscale, até quatro jogadores"
+  ],
+  "install": [
+    "Baixe o APK Android ARM64 na página oficial de Releases e instale no aparelho.",
+    "Em um computador, abra sua cópia legal do jogo no Dolphin, confirme o ID SMNE01 e a revisão 1 e use Extract Entire Disc.",
+    "Copie a pasta extraída para o telefone ou compacte-a em ZIP.",
+    "No app, escolha Import from Extracted Game Data Folder ou Import Game Data Zip e selecione os dados extraídos.",
+    "Para jogar em grupo, escolha Couch para multiplayer local ou altere para LAN; para conexões pela internet, configure Tailscale nos dispositivos."
+  ],
+  "notes": "Port não oficial licenciado sob GPL-3.0; não afiliado à Nintendo. Nenhum disco, nível, música, imagem ou som do jogo é distribuído neste repositório. A capa e os screenshots foram enviados pelo usuário; o banner vem da captura Android publicada pelo projeto oficial.",
+  "links": {
+    "github": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation",
+    "releases": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation/releases",
+    "download": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation/releases/latest",
+    "tutorial": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation#readme"
+  },
+  "credit": {
+    "port": "WitherBlitz, com base em componentes do WiiCompiled",
+    "portUrl": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation",
+    "original": "Nintendo — New Super Mario Bros. Wii",
+    "originalUrl": "https://www.nintendo.com/",
+    "game": "New Super Mario Bros. Wii © Nintendo"
+  },
+  "license": "GPL-3.0",
+  "type": "android",
+  "packageName": "com.wither.nsmbw"
+}

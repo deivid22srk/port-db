@@ -19,6 +19,7 @@ Base de dados em JSON extraída de [https://github.com/deivid22srk/port-droid](h
 - `simpsons-hit-and-run` — The Simpsons: Hit & Run
 - `halo-ce` — Halo: Combat Evolved
 - `gta-iv` — Grand Theft Auto IV
+- `new-super-mario-bros-wii` — New Super Mario Bros. Wii
 
 ## Uso rápido
 
@@ -32,7 +33,7 @@ Os registros incluem `packageName` quando informado. O campo `version` não é u
 
 ## Imagens
 
-As imagens de GTA IV seguem a resolução indicada no README do projeto de origem: capa WebP **720×960 (3:4)** e banner/screenshots WebP **1280×720 (16:9)**. Os screenshots enviados em 1200×540 foram encaixados no canvas 1280×720 preservando o conteúdo completo.
+As imagens seguem as dimensões recomendadas pelos projetos de origem: capas WebP **720×960 (3:4)** e banners/screenshots WebP **1280×720 (16:9)**. Para GTA IV, os screenshots em 1200×540 foram encaixados em 1280×720 sem recortar o conteúdo. Para New Super Mario Bros. Wii, a capa enviada foi ajustada sem cortes e os screenshots tiveram apenas as barras pretas externas removidas antes de serem redimensionados para 1280×720.
 
 ## Escopo e direitos
 

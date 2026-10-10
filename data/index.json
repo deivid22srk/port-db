@@ -7,7 +7,7 @@
     "telegram": "https://t.me/hailgames2",
     "github": "https://github.com/deivid22srk/port-droid"
   },
-  "gameCount": 8,
+  "gameCount": 9,
   "games": [
     {
       "id": "sonic-unleashed",
@@ -164,6 +164,24 @@
       ],
       "packageName": "com.libertyrecomp",
       "videoId": "fcNuCXw3zHs"
+    },
+    {
+      "id": "new-super-mario-bros-wii",
+      "title": "New Super Mario Bros. Wii",
+      "json": "games/new-super-mario-bros-wii.json",
+      "cover": "assets/img/games/new-super-mario-bros-wii/cover.webp",
+      "banner": "assets/img/games/new-super-mario-bros-wii/banner.webp",
+      "screenshots": [
+        "assets/img/games/new-super-mario-bros-wii/shot-1.webp",
+        "assets/img/games/new-super-mario-bros-wii/shot-2.webp"
+      ],
+      "assets": [
+        "assets/img/games/new-super-mario-bros-wii/cover.webp",
+        "assets/img/games/new-super-mario-bros-wii/banner.webp",
+        "assets/img/games/new-super-mario-bros-wii/shot-1.webp",
+        "assets/img/games/new-super-mario-bros-wii/shot-2.webp"
+      ],
+      "packageName": "com.wither.nsmbw"
     }
   ]
 }
