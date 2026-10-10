@@ -20,6 +20,7 @@ Base de dados em JSON extraída de [https://github.com/deivid22srk/port-droid](h
 - `halo-ce` — Halo: Combat Evolved
 - `gta-iv` — Grand Theft Auto IV
 - `new-super-mario-bros-wii` — New Super Mario Bros. Wii
+- `pt-android` — P.T. (Android, experimental)
 
 ## Uso rápido
 
@@ -33,7 +34,7 @@ Os registros incluem `packageName` quando informado. O campo `version` não é u
 
 ## Imagens
 
-As imagens seguem as dimensões recomendadas pelos projetos de origem: capas WebP **720×960 (3:4)** e banners/screenshots WebP **1280×720 (16:9)**. Para GTA IV, os screenshots em 1200×540 foram encaixados em 1280×720 sem recortar o conteúdo. Para New Super Mario Bros. Wii, a capa enviada foi ajustada sem cortes e os screenshots tiveram apenas as barras pretas externas removidas antes de serem redimensionados para 1280×720.
+As imagens seguem as dimensões recomendadas pelos projetos de origem: capas WebP **720×960 (3:4)** e banners/screenshots WebP **1280×720 (16:9)**. Para GTA IV, os screenshots em 1200×540 foram encaixados em 1280×720 sem recortar o conteúdo. Para New Super Mario Bros. Wii, a capa enviada foi ajustada sem cortes e os screenshots tiveram apenas as barras pretas externas removidas antes de serem redimensionados para 1280×720. O registro de P.T. ainda não tem screenshots de galeria; a capa foi enviada pelo usuário e o banner deriva de uma prévia GIF do projeto upstream.
 
 ## Escopo e direitos
 

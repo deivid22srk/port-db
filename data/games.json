@@ -784,6 +784,91 @@
       "license": "GPL-3.0",
       "type": "android",
       "packageName": "com.wither.nsmbw"
+    },
+    {
+      "id": "pt-android",
+      "title": "P.T.",
+      "port": "P.T. for Android (StoneColdOS)",
+      "original": "PlayStation 4 (2014)",
+      "categories": [
+        "aventura"
+      ],
+      "tags": [
+        "Terror",
+        "Experimental",
+        "Snapdragon",
+        "Adreno",
+        "Vulkan",
+        "Android",
+        "Gamepad",
+        "Sem controles touch"
+      ],
+      "chipsets": [
+        "Snapdragon"
+      ],
+      "performance": "pesado",
+      "apkSize": "≈23 MB",
+      "storage": "Reserve cerca de 1,4 GB livres durante a importação; depois é possível apagar o arquivo .pkg importado",
+      "updated": "2026-10-10",
+      "dateAdded": "2026-10-10",
+      "status": "ativo",
+      "statusLabel": "Experimental",
+      "featured": false,
+      "downloads": 0,
+      "cover": "assets/img/games/pt-pc/cover.webp",
+      "banner": "assets/img/games/pt-pc/banner.webp",
+      "screenshots": [],
+      "videoId": null,
+      "shortDescription": "Port experimental de P.T. para Android ARM64 com Snapdragon/Adreno e Vulkan. Exige gamepad físico e uma cópia própria dos arquivos do jogo; não possui controles por toque.",
+      "description": [
+        "P.T. for Android é uma adaptação não oficial da versão nativa para PC de P.T., originalmente lançado como teaser para PlayStation 4. O port executa o código nativo e o renderizador Vulkan, sem usar emulador, e lê os dados de uma cópia do jogo fornecida pelo usuário.",
+        "É uma versão de testes inicial, desenvolvida e testada em um único dispositivo, o AYN Thor Max com Snapdragon 8 Gen 2 e GPU Adreno 740. O projeto relata aproximadamente 60 FPS na sala inicial e 25–35 FPS nas partes mais pesadas.",
+        "O port Android suporta aparelhos ARM64 com GPU Qualcomm Adreno 6xx ou 7xx. GPUs Mali, Immortalis, Samsung Xclipse, PowerVR, Google Tensor e MediaTek não são suportadas. É necessário um controle físico; não há controles táteis na tela.",
+        "O app e os releases não incluem os arquivos do jogo. O README recomenda uma cópia própria de P.T. (CUSA01127) em formato fake PKG criado a partir do dump do usuário ou os três arquivos extraídos necessários."
+      ],
+      "requirements": {
+        "minimo": {
+          "Sistema": "Android 10 ou mais recente, 64 bits (ARM64)",
+          "GPU": "Qualcomm Adreno 6xx ou 7xx, com Vulkan; Mali, Immortalis, Xclipse, PowerVR, Google Tensor e MediaTek não são suportadas",
+          "Controle": "Gamepad físico integrado ou conectado; o jogo não tem controles por toque",
+          "Armazenamento": "Aproximadamente 1,4 GB livres durante a importação dos dados",
+          "Arquivos": "Cópia própria de P.T. (CUSA01127) em fake PKG feito a partir do próprio dump, ou os arquivos chunk1.psarc, texture.qar e pathid_list_ps4.bin"
+        },
+        "recomendado": {
+          "Aparelho": "Snapdragon 8 Gen 2 com Adreno 740 (AYN Thor Max), único aparelho citado como testado",
+          "Microfone": "Usado na parte de reconhecimento de voz; é possível manter os dois gatilhos pressionados como alternativa"
+        }
+      },
+      "chipsetRecommended": "Snapdragon com Adreno 6xx/7xx e Vulkan; somente Adreno 740 foi testada pelo projeto",
+      "controls": [
+        "Gamepad físico com layout Xbox; controle virtual por toque não está disponível",
+        "A parte final pede que o jogador fale uma palavra ao microfone; manter os dois gatilhos pressionados funciona como alternativa",
+        "Vibração segue os padrões do jogo original"
+      ],
+      "install": [
+        "Baixe o APK Android na página Releases do projeto e instale no aparelho compatível.",
+        "Abra P.T. e escolha Choose your P.T. .pkg para importar sua cópia própria em fake PKG; o arquivo de loja da PlayStation Store não funciona.",
+        "Se já tiver os arquivos extraídos, escolha I already have the extracted files, copie chunk1.psarc, texture.qar e pathid_list_ps4.bin para a pasta Download e conceda acesso a todos os arquivos quando solicitado.",
+        "Reserve cerca de 1,4 GB livres para a configuração inicial. Depois da importação, o app permite apagar o .pkg para liberar esse espaço."
+      ],
+      "notes": "Build Android de teste inicial, desenvolvido e validado em um único aparelho. Não inclui conteúdo do jogo nem ajuda a obtê-lo. Port não oficial, sem afiliação com Konami, Kojima Productions ou com o projeto upstream; a branch Android adapta o port nativo de LoreanXavier.",
+      "links": {
+        "github": "https://github.com/StoneColdOS/pt-pc/tree/android-port",
+        "releases": "https://github.com/StoneColdOS/pt-pc/releases",
+        "download": "https://github.com/StoneColdOS/pt-pc/releases",
+        "tutorial": "https://github.com/StoneColdOS/pt-pc/blob/android-port/docs/android.md",
+        "reference": "https://github.com/LoreanXavier/pt-pc"
+      },
+      "credit": {
+        "port": "StoneColdOS — adaptação Android; port nativo por LoreanXavier",
+        "portUrl": "https://github.com/StoneColdOS/pt-pc/tree/android-port",
+        "original": "Kojima Productions / Konami",
+        "originalUrl": "https://www.konami.com/",
+        "game": "P.T. © Konami / Kojima Productions"
+      },
+      "license": "MIT",
+      "type": "android",
+      "packageName": "com.ptport.app"
     }
   ]
 }

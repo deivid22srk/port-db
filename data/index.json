@@ -7,7 +7,7 @@
     "telegram": "https://t.me/hailgames2",
     "github": "https://github.com/deivid22srk/port-droid"
   },
-  "gameCount": 9,
+  "gameCount": 10,
   "games": [
     {
       "id": "sonic-unleashed",
@@ -182,6 +182,19 @@
         "assets/img/games/new-super-mario-bros-wii/shot-2.webp"
       ],
       "packageName": "com.wither.nsmbw"
+    },
+    {
+      "id": "pt-android",
+      "title": "P.T.",
+      "json": "games/pt-android.json",
+      "cover": "assets/img/games/pt-pc/cover.webp",
+      "banner": "assets/img/games/pt-pc/banner.webp",
+      "screenshots": [],
+      "assets": [
+        "assets/img/games/pt-pc/cover.webp",
+        "assets/img/games/pt-pc/banner.webp"
+      ],
+      "packageName": "com.ptport.app"
     }
   ]
 }
