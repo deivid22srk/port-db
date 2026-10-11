@@ -7,7 +7,7 @@
     "telegram": "https://t.me/hailgames2",
     "github": "https://github.com/deivid22srk/port-droid"
   },
-  "gameCount": 10,
+  "gameCount": 11,
   "games": [
     {
       "id": "sonic-unleashed",
@@ -195,6 +195,24 @@
         "assets/img/games/pt-pc/banner.webp"
       ],
       "packageName": "com.ptport.app"
+    },
+    {
+      "id": "bloodborne-android",
+      "title": "Bloodborne",
+      "json": "games/bloodborne-android.json",
+      "cover": "assets/img/games/bloodborne/cover.webp",
+      "banner": "assets/img/games/bloodborne/banner.webp",
+      "screenshots": [
+        "assets/img/games/bloodborne/shot-1.webp",
+        "assets/img/games/bloodborne/shot-2.webp"
+      ],
+      "assets": [
+        "assets/img/games/bloodborne/cover.webp",
+        "assets/img/games/bloodborne/banner.webp",
+        "assets/img/games/bloodborne/shot-1.webp",
+        "assets/img/games/bloodborne/shot-2.webp"
+      ],
+      "packageName": "com.ducvd89.bloodborne"
     }
   ]
 }

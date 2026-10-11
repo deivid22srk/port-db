@@ -869,6 +869,97 @@
       "license": "MIT",
       "type": "android",
       "packageName": "com.ptport.app"
+    },
+    {
+      "id": "bloodborne-android",
+      "title": "Bloodborne",
+      "port": "Bloodborne-Android",
+      "original": "PlayStation 4 (2015)",
+      "categories": [
+        "acao",
+        "rpg"
+      ],
+      "tags": [
+        "Soulslike",
+        "Ação",
+        "RPG",
+        "Experimental",
+        "Snapdragon",
+        "Adreno",
+        "Vulkan",
+        "FSR 3.1",
+        "Frame Generation",
+        "Controle touch",
+        "Gamepad"
+      ],
+      "chipsets": [
+        "Snapdragon"
+      ],
+      "performance": "pesado",
+      "apkSize": "≈226 MB",
+      "storage": "O espaço necessário varia conforme o dump extraído; use a atualização 1.09 e reserve espaço adicional para o APK e os arquivos de jogo.",
+      "updated": "2026-10-11",
+      "dateAdded": "2026-10-11",
+      "status": "ativo",
+      "statusLabel": "Experimental",
+      "featured": false,
+      "downloads": 0,
+      "cover": "assets/img/games/bloodborne/cover.webp",
+      "banner": "assets/img/games/bloodborne/banner.webp",
+      "screenshots": [
+        "assets/img/games/bloodborne/shot-1.webp",
+        "assets/img/games/bloodborne/shot-2.webp"
+      ],
+      "videoId": null,
+      "shortDescription": "Port experimental de Bloodborne para Android ARM64 com Snapdragon e GPU Adreno. Requer os arquivos próprios do jogo atualizados para v1.09.",
+      "description": [
+        "Bloodborne-Android é um port experimental de Bloodborne para aparelhos Android com processador ARM64. O runtime e o renderizador funcionam nativamente no ARM64, enquanto o FEXCore traduz o código x86-64 do jogo e o driver Mesa Turnip fornece o suporte gráfico Vulkan.",
+        "O projeto oferece controles PlayStation virtuais configuráveis na tela e também aceita gamepads físicos. Inclui FSR 3.1 para upscaling e geração de quadros, além de configurações e cheats opcionais. Lossless Scaling é uma opção separada e não está incluída no APK.",
+        "O projeto foi testado no AYN Thor com Snapdragon 8 Gen 2 / Adreno 740 e no Oppo Find N5 com Snapdragon 8 Elite / Adreno 830. Outros aparelhos Adreno 6xx, 7xx e 8xx ainda não foram testados. É necessário Android 9 ou mais recente, arquitetura ARM64 e páginas de memória de 4 KB.",
+        "O APK não contém arquivos do jogo. O usuário precisa fornecer seu próprio dump extraído de Bloodborne com a atualização 1.09 aplicada. O README lista edições de varejo dos EUA, Europa, Reino Unido, Japão e Ásia, incluindo The Old Hunters."
+      ],
+      "requirements": {
+        "minimo": {
+          "Sistema": "Android 9 ou mais recente, 64 bits (ARM64)",
+          "Memória": "Páginas de memória de 4 KB",
+          "GPU": "GPU Qualcomm Adreno com driver Vulkan; Adreno 740 e Adreno 830 foram testadas, outros modelos são não testados",
+          "Jogo": "Dump próprio de Bloodborne extraído com atualização v1.09 aplicada; o APK não inclui os arquivos do jogo"
+        },
+        "recomendado": {
+          "Aparelho": "AYN Thor com Snapdragon 8 Gen 2 / Adreno 740 ou Oppo Find N5 com Snapdragon 8 Elite / Adreno 830, aparelhos testados pelo projeto",
+          "RAM": "16 GB foi a configuração de memória dos aparelhos de teste citados; o projeto não publica mínimo de RAM",
+          "Controle": "Controles virtuais de tela configuráveis ou gamepad físico"
+        }
+      },
+      "chipsetRecommended": "Snapdragon 8 Gen 2 / Adreno 740 ou Snapdragon 8 Elite / Adreno 830 (aparelhos testados)",
+      "controls": [
+        "Controles virtuais PlayStation na tela, com layout editável",
+        "Gamepads físicos também são compatíveis",
+        "Menu do app acessível deslizando a partir da borda esquerda ou pressionando Voltar"
+      ],
+      "install": [
+        "Baixe o APK na página oficial de Releases e instale no aparelho compatível.",
+        "Extraia legalmente seu próprio dump de Bloodborne com a atualização 1.09 aplicada e copie a pasta para o telefone.",
+        "Abra o app, selecione a pasta do jogo que contém eboot.bin (ou a pasta que a contém) e permita o acesso ao armazenamento.",
+        "A primeira inicialização pode levar alguns minutos. Os releases não incluem arquivos de Bloodborne."
+      ],
+      "notes": "Port não oficial e experimental. Não afiliado à Sony Interactive Entertainment, FromSoftware, Valve ou aos desenvolvedores de Lossless Scaling. Nenhum arquivo do jogo é distribuído. A capa foi enviada pelo usuário; banner e imagens da galeria foram obtidos do README oficial do projeto.",
+      "links": {
+        "github": "https://github.com/ducvd89/Bloodborne-Android",
+        "releases": "https://github.com/ducvd89/Bloodborne-Android/releases",
+        "download": "https://github.com/ducvd89/Bloodborne-Android/releases/latest",
+        "tutorial": "https://github.com/ducvd89/Bloodborne-Android#install"
+      },
+      "credit": {
+        "port": "ducvd89 e colaboradores",
+        "portUrl": "https://github.com/ducvd89/Bloodborne-Android",
+        "original": "FromSoftware / Sony Interactive Entertainment",
+        "originalUrl": "https://www.fromsoftware.jp/ww/",
+        "game": "Bloodborne © FromSoftware / Sony Interactive Entertainment"
+      },
+      "license": "GPL-2.0",
+      "type": "android",
+      "packageName": "com.ducvd89.bloodborne"
     }
   ]
 }
