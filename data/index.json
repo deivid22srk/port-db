@@ -7,7 +7,7 @@
     "telegram": "https://t.me/hailgames2",
     "github": "https://github.com/deivid22srk/port-droid"
   },
-  "gameCount": 11,
+  "gameCount": 12,
   "games": [
     {
       "id": "sonic-unleashed",
@@ -213,6 +213,22 @@
         "assets/img/games/bloodborne/shot-2.webp"
       ],
       "packageName": "com.ducvd89.bloodborne"
+    },
+    {
+      "id": "mw2-android",
+      "title": "Call of Duty: Modern Warfare 2",
+      "json": "games/mw2-android.json",
+      "cover": "assets/img/games/mw2-android/cover.webp",
+      "banner": "assets/img/games/mw2-android/banner.webp",
+      "screenshots": [
+        "assets/img/games/mw2-android/shot-1.webp"
+      ],
+      "assets": [
+        "assets/img/games/mw2-android/cover.webp",
+        "assets/img/games/mw2-android/banner.webp",
+        "assets/img/games/mw2-android/shot-1.webp"
+      ],
+      "packageName": "com.mw2.recomp.sp"
     }
   ]
 }

@@ -1,0 +1,92 @@
+{
+  "id": "mw2-android",
+  "title": "Call of Duty: Modern Warfare 2",
+  "port": "MW2 Recompiled — OpenPort-Labs Android",
+  "original": "Xbox 360 (2009)",
+  "categories": [
+    "acao",
+    "aventura"
+  ],
+  "tags": [
+    "FPS",
+    "Ação",
+    "Campanha",
+    "Multiplayer",
+    "Vulkan",
+    "Android",
+    "ARM64",
+    "Controles touch",
+    "Gamepad",
+    "Experimental"
+  ],
+  "chipsets": [
+    "Snapdragon",
+    "MediaTek Dimensity",
+    "Google Tensor",
+    "Samsung Exynos"
+  ],
+  "performance": "pesado",
+  "apkSize": "≈9,4 MB (APK de campanha do release atual)",
+  "storage": "Cerca de 7–8 GB livres para os dados do jogo; o espaço do dump e o APK devem ser considerados à parte.",
+  "updated": "2026-10-11",
+  "dateAdded": "2026-10-11",
+  "status": "ativo",
+  "statusLabel": "Experimental",
+  "featured": false,
+  "downloads": 0,
+  "cover": "assets/img/games/mw2-android/cover.webp",
+  "banner": "assets/img/games/mw2-android/banner.webp",
+  "screenshots": [
+    "assets/img/games/mw2-android/shot-1.webp"
+  ],
+  "videoId": null,
+  "shortDescription": "Adaptação nativa ARM64 de MW2 Recompiled para Android, com renderização Vulkan, controles por toque e suporte a gamepad. Requer ISO própria do Xbox 360 na versão 1.0.557.",
+  "description": [
+    "MW2 Recompiled é uma recompilação de Call of Duty: Modern Warfare 2 (2009), originalmente lançado para Xbox 360. As instruções PowerPC são convertidas antecipadamente em código C++ nativo e compiladas para cada plataforma; não é um emulador.",
+    "A adaptação Android oferece runtime ARM64, renderizador Vulkan, áudio, controles virtuais configuráveis e suporte a controles Bluetooth/USB. O projeto documenta otimizações para Snapdragon, MediaTek Dimensity, Google Tensor e Samsung Exynos, incluindo GPUs Adreno, Mali e Xclipse com caminhos de compatibilidade Vulkan.",
+    "O README do projeto descreve campanha e funcionalidades de multiplayer. No release mais recente consultado, o APK publicado é o de campanha; o repositório também documenta variantes separadas de campanha e multiplayer com IDs de pacote diferentes.",
+    "O APK não inclui conteúdo do jogo. É necessário fornecer uma cópia própria do disco de Call of Duty: Modern Warfare 2 para Xbox 360, versão 1.0.557, dos EUA ou da Europa."
+  ],
+  "requirements": {
+    "minimo": {
+      "Sistema": "Android 10 ou mais recente (API 29+), 64 bits (arm64-v8a)",
+      "GPU": "Vulkan 1.1 ou mais recente; Vulkan 1.3 é usado no caminho moderno, com fallback Vulkan 1.1 para aparelhos compatíveis",
+      "Armazenamento": "Aproximadamente 7–8 GB livres para os dados do jogo",
+      "Jogo": "ISO ou dump próprio de Call of Duty: Modern Warfare 2 para Xbox 360, versão 1.0.557 (EUA ou Europa)"
+    },
+    "recomendado": {
+      "Alto desempenho": "Snapdragon 865 até Snapdragon 8 Gen 3, Dimensity série 8000/9000 ou Google Tensor G2–G4; o README classifica esses aparelhos como Tier 1",
+      "Intermediário": "Snapdragon 778G/782G/7-series, Dimensity 920/1080/1200/7050 para 720p",
+      "Entrada": "Snapdragon 695 / 6 Gen 1 ou Helio G99/G96, com resolução e desempenho reduzidos"
+    }
+  },
+  "chipsetRecommended": "O projeto cita Snapdragon série 8, Dimensity série 8000/9000 e Tensor G2–G4 para o Tier 1; os resultados variam por aparelho e GPU.",
+  "controls": [
+    "Controles virtuais de toque: analógicos, botões de ação, bumpers e gatilhos; layout e transparência configuráveis",
+    "Controles Xbox, PlayStation ou genéricos Bluetooth/USB são detectados automaticamente",
+    "Opção de alternar a mira entre toque contínuo e modo de alternância"
+  ],
+  "install": [
+    "Baixe o APK de campanha na página oficial de Releases e instale no Android compatível.",
+    "Copie para a pasta Download sua própria ISO/dump Xbox 360 de Modern Warfare 2, versão 1.0.557, EUA ou Europa.",
+    "Abra MW2 Campaign; quando a ISO for detectada, use INSTALL & PLAY para verificar e instalar os arquivos no armazenamento do app.",
+    "Quando a instalação terminar, toque em LAUNCH GAME. O app também oferece opções de gráficos, limite de FPS, FOV e driver Vulkan."
+  ],
+  "notes": "Projeto experimental e não afiliado à Activision, Infinity Ward ou Microsoft. Não inclui assets, executáveis nem código proprietário do jogo. A capa veio da miniatura da Wikipédia indicada pelo usuário; banner e screenshot foram obtidos do repositório OpenPort-Labs/mw2-android. O APK Android atualmente publicado é o de campanha.",
+  "links": {
+    "github": "https://github.com/OpenPort-Labs/mw2-android",
+    "releases": "https://github.com/OpenPort-Labs/mw2-android/releases",
+    "download": "https://github.com/OpenPort-Labs/mw2-android/releases/latest",
+    "tutorial": "https://github.com/OpenPort-Labs/mw2-android#android-setup"
+  },
+  "credit": {
+    "port": "OpenPort-Labs e colaboradores",
+    "portUrl": "https://github.com/OpenPort-Labs/mw2-android",
+    "original": "Infinity Ward / Activision",
+    "originalUrl": "https://www.activision.com/",
+    "game": "Call of Duty: Modern Warfare 2 © Activision Publishing, Inc."
+  },
+  "license": "GPL-3.0-only",
+  "type": "android",
+  "packageName": "com.mw2.recomp.sp"
+}
