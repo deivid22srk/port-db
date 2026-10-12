@@ -1,0 +1,76 @@
+{
+  "id": "farcry-android",
+  "title": "Far Cry",
+  "port": "Sigma Touch v1.4 — Far Cry Test 4",
+  "original": "PC (2004)",
+  "categories": [
+    "acao",
+    "aventura"
+  ],
+  "tags": [
+    "FPS",
+    "Ação",
+    "Mundo aberto",
+    "Android",
+    "ARM",
+    "OpenGL ES 3",
+    "Experimental",
+    "Controles touch",
+    "Gamepad"
+  ],
+  "chipsets": [],
+  "performance": null,
+  "apkSize": "≈49,74 MB (tamanho listado pelo MediaFire)",
+  "storage": "Não informado para esta build; os dados do jogo podem exigir espaço adicional.",
+  "updated": "2026-10-11",
+  "dateAdded": "2026-10-11",
+  "status": "ativo",
+  "statusLabel": "Experimental",
+  "featured": false,
+  "downloads": 0,
+  "cover": "assets/img/games/farcry-android/cover.webp",
+  "banner": null,
+  "screenshots": [],
+  "videoId": null,
+  "shortDescription": "Build de teste não oficial do Sigma Touch v1.4 que adiciona Far Cry ao Android. A postagem menciona ARM 32/64-bit, OpenGL ES 3, controles touch e gamepad; requisitos detalhados não foram publicados.",
+  "description": [
+    "Esta entrada acompanha o APK sigmatouch-v1.4_FARCRY_TEST_4.apk compartilhado pelo usuário. Uma postagem pública da comunidade descreve a build v1.4 como uma versão de teste do Sigma Touch com engine para Far Cry.",
+    "A mesma postagem atribui à build um renderer OpenGL ES 3, suporte a aparelhos ARM de 32 e 64 bits, controles touch completos e gamepad. Como não há documentação pública do projeto específica para esta build, esses detalhes e a compatibilidade ainda não foram verificados independentemente.",
+    "O site oficial do Sigma Touch informa que os ports não incluem os dados dos jogos. As instruções exatas de instalação/importação e os requisitos mínimos de Android para esta versão de teste não estão publicados; use somente dados de jogo obtidos legalmente.",
+    "O APK está hospedado em uma página MediaFire fornecida pelo usuário e não foi baixado nem analisado. Trate-o como uma build comunitária experimental, não como um release estável oficial."
+  ],
+  "requirements": {
+    "minimo": {
+      "Sistema": "ARM 32 bits ou 64 bits, segundo a postagem pública da build; versão mínima do Android não informada",
+      "Gráficos": "OpenGL ES 3, conforme descrito na postagem da versão de teste",
+      "Controles": "A postagem relata controles touch e suporte a gamepad",
+      "Arquivos": "Dados de Far Cry podem ser necessários; a página oficial do Sigma Touch informa que os ports não incluem dados dos jogos. O procedimento específico desta build não está documentado."
+    },
+    "recomendado": {}
+  },
+  "chipsetRecommended": null,
+  "controls": [
+    "A postagem da build relata controles touch completos e botões personalizáveis",
+    "Suporte a gamepad é mencionado, sem lista publicada de modelos testados"
+  ],
+  "install": [
+    "O APK sigmatouch-v1.4_FARCRY_TEST_4.apk está no link MediaFire fornecido pelo usuário; esta build comunitária não foi verificada tecnicamente.",
+    "Consulte as instruções oficiais do Sigma Touch para os dados do jogo. As etapas específicas de instalação de Far Cry nesta versão de teste ainda não estão documentadas publicamente.",
+    "Use apenas arquivos de jogo obtidos legalmente; o port não deve ser tratado como distribuidor dos dados originais."
+  ],
+  "notes": "Build comunitária de teste, não listada na página oficial do Sigma Touch consultada. A página do MediaFire lista 49,74 MB; tamanho, origem e conteúdo do APK não foram verificados por análise do binário. A capa foi obtida da imagem Wikimedia indicada pelo usuário. Não foram adicionados banner ou screenshots por não haver imagens específicas verificadas do projeto.",
+  "links": {
+    "download": "https://www.mediafire.com/file/9khtq2ew7fsx3o8/sigmatouch-v1.4_FARCRY_TEST_4.apk/file",
+    "reference": "https://www.reddit.com/r/AndroidNativePorts/comments/1x0knx5/far_cry_mobile_unofficial_porting_settings_high/",
+    "project": "http://opentouchgaming.com/sigma-touch/"
+  },
+  "credit": {
+    "port": "Sigma Touch; autoria da adição de Far Cry nesta build comunitária não confirmada",
+    "portUrl": "http://opentouchgaming.com/sigma-touch/",
+    "original": "Crytek / Ubisoft",
+    "originalUrl": "https://www.ubisoft.com/",
+    "game": "Far Cry © seus respectivos titulares"
+  },
+  "license": null,
+  "type": "android"
+}

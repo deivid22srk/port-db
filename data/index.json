@@ -7,7 +7,7 @@
     "telegram": "https://t.me/hailgames2",
     "github": "https://github.com/deivid22srk/port-droid"
   },
-  "gameCount": 12,
+  "gameCount": 13,
   "games": [
     {
       "id": "sonic-unleashed",
@@ -229,6 +229,17 @@
         "assets/img/games/mw2-android/shot-1.webp"
       ],
       "packageName": "com.mw2.recomp.sp"
+    },
+    {
+      "id": "farcry-android",
+      "title": "Far Cry",
+      "json": "games/farcry-android.json",
+      "cover": "assets/img/games/farcry-android/cover.webp",
+      "banner": null,
+      "screenshots": [],
+      "assets": [
+        "assets/img/games/farcry-android/cover.webp"
+      ]
     }
   ]
 }
