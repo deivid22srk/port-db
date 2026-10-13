@@ -7,7 +7,7 @@
     "telegram": "https://t.me/hailgames2",
     "github": "https://github.com/deivid22srk/port-droid"
   },
-  "gameCount": 13,
+  "gameCount": 14,
   "games": [
     {
       "id": "sonic-unleashed",
@@ -240,6 +240,19 @@
       "assets": [
         "assets/img/games/farcry-android/cover.webp"
       ]
+    },
+    {
+      "id": "megaman64-recompiled-mobile",
+      "title": "Mega Man 64",
+      "json": "games/megaman64-recompiled-mobile.json",
+      "cover": "assets/img/games/megaman64-mobile/cover.webp",
+      "banner": null,
+      "screenshots": [],
+      "assets": [
+        "assets/img/games/megaman64-mobile/cover.webp",
+        "assets/img/games/megaman64-mobile/cover-original.jpg"
+      ],
+      "packageName": "com.devz.megaman64"
     }
   ]
 }

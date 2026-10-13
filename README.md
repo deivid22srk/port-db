@@ -24,6 +24,7 @@ Base de dados em JSON extraída de [https://github.com/deivid22srk/port-droid](h
 - `bloodborne-android` — Bloodborne (Android, experimental)
 - `mw2-android` — Call of Duty: Modern Warfare 2 (Android, experimental)
 - `farcry-android` — Far Cry (Android, build comunitária de teste)
+- `megaman64-recompiled-mobile` — Mega Man 64 (Android, experimental)
 
 ## Uso rápido
 
@@ -37,7 +38,7 @@ Os registros incluem `packageName` quando informado. O campo `version` não é u
 
 ## Imagens
 
-As imagens seguem as dimensões recomendadas pelos projetos de origem: capas WebP **720×960 (3:4)** e banners/screenshots WebP **1280×720 (16:9)**. Para GTA IV, os screenshots em 1200×540 foram encaixados em 1280×720 sem recortar o conteúdo. Para New Super Mario Bros. Wii, a capa enviada foi ajustada sem cortes e os screenshots tiveram apenas as barras pretas externas removidas antes de serem redimensionados para 1280×720. O registro de P.T. ainda não tem screenshots de galeria; a capa foi enviada pelo usuário e o banner deriva de uma prévia GIF do projeto upstream. Para Bloodborne, a capa foi enviada pelo usuário e o banner e as imagens da galeria vêm do README do projeto oficial. Para Modern Warfare 2, a capa veio da miniatura da Wikipédia indicada pelo usuário; banner e screenshot vêm do repositório do port. Para Far Cry, a capa veio da imagem Wikimedia indicada pelo usuário; não há banner nem screenshots verificados para esta build de teste.
+As imagens seguem as dimensões recomendadas pelos projetos de origem: capas WebP **720×960 (3:4)** e banners/screenshots WebP **1280×720 (16:9)**. Para GTA IV, os screenshots em 1200×540 foram encaixados em 1280×720 sem recortar o conteúdo. Para New Super Mario Bros. Wii, a capa enviada foi ajustada sem cortes e os screenshots tiveram apenas as barras pretas externas removidas antes de serem redimensionados para 1280×720. O registro de P.T. ainda não tem screenshots de galeria; a capa foi enviada pelo usuário e o banner deriva de uma prévia GIF do projeto upstream. Para Bloodborne, a capa foi enviada pelo usuário e o banner e as imagens da galeria vêm do README do projeto oficial. Para Modern Warfare 2, a capa veio da miniatura da Wikipédia indicada pelo usuário; banner e screenshot vêm do repositório do port. Para Far Cry, a capa veio da imagem Wikimedia indicada pelo usuário; não há banner nem screenshots verificados para esta build de teste. Para Mega Man 64, a capa usa a arte frontal N64 do The Cover Project; não há banner ou screenshots verificados no repositório mobile.
 
 ## Escopo e direitos
 

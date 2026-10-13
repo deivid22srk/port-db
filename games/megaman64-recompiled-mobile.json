@@ -1,0 +1,86 @@
+{
+  "id": "megaman64-recompiled-mobile",
+  "title": "Mega Man 64",
+  "port": "Mega Man 64: Recompiled — Mobile",
+  "original": "Nintendo 64 (2001)",
+  "categories": [
+    "acao",
+    "aventura"
+  ],
+  "tags": [
+    "Ação",
+    "Aventura",
+    "Plataforma",
+    "N64",
+    "Recompilação",
+    "Android",
+    "ARM64",
+    "Vulkan",
+    "Controles touch",
+    "Gamepad"
+  ],
+  "chipsets": [
+    "Snapdragon"
+  ],
+  "performance": null,
+  "apkSize": "≈27,8 MB",
+  "storage": "Espaço necessário para a ROM própria e os dados do app; tamanho da ROM não especificado pelo projeto.",
+  "updated": "2026-10-13",
+  "dateAdded": "2026-10-13",
+  "status": "ativo",
+  "statusLabel": "Experimental",
+  "featured": false,
+  "downloads": 0,
+  "cover": "assets/img/games/megaman64-mobile/cover.webp",
+  "banner": null,
+  "screenshots": [],
+  "videoId": null,
+  "shortDescription": "Recompilação mobile não oficial de Mega Man 64 para Android e iOS. Android 8+, ARM64 e GPU Vulkan; importe sua própria ROM norte-americana de N64.",
+  "description": [
+    "Mega Man 64: Recompiled — Mobile é uma adaptação não oficial para Android e iOS do projeto MegaMan64Recompiled, construído com N64ModernRuntime e RT64. O jogo original é a versão norte-americana de Mega Man Legends lançada para Nintendo 64 como Mega Man 64.",
+    "O port para Android requer aparelho ARM64, Android 8.0 ou mais recente e GPU compatível com Vulkan. O projeto informa que a renderização e a jogabilidade foram testadas em um aparelho Android com GPU Adreno 710; outras GPUs Vulkan podem ter requisitos ou resultados diferentes.",
+    "Há controles touch editáveis para menus e gameplay, além de suporte a controles USB/Bluetooth compatíveis com SDL. Os saves persistentes usam FlashRAM e são associados ao identificador de pacote do app.",
+    "É necessária uma ROM própria da edição norte-americana de Mega Man 64 para N64. O loader aceita os formatos .z64, .v64 e .n64. A build dos EUA reconhece a ROM japonesa Rockman DASH, mas não permite jogá-la; não houve edição PAL oficial para N64. O repositório não inclui ROMs ou saves."
+  ],
+  "requirements": {
+    "minimo": {
+      "Sistema": "Android 8.0 ou mais recente",
+      "Arquitetura": "ARM64",
+      "GPU": "GPU compatível com Vulkan; o projeto observa que outras GPUs podem variar",
+      "Jogo": "ROM própria da edição norte-americana Mega Man 64 para Nintendo 64 (.z64, .v64 ou .n64)"
+    },
+    "recomendado": {
+      "Aparelho testado": "Android com GPU Adreno 710; instalação do release atual ainda deve ser verificada em cada aparelho",
+      "Controle": "Gamepad USB/Bluetooth compatível com SDL, se preferir controles físicos"
+    }
+  },
+  "chipsetRecommended": "Apenas uma GPU Adreno 710 é citada como testada no Android; demais GPUs Vulkan podem se comportar de forma diferente.",
+  "controls": [
+    "Layouts touch separados para gameplay e menu; posições, tamanho, opacidade e cores são editáveis",
+    "Suporte a gamepads USB/Bluetooth compatíveis com SDL, com bindings configuráveis"
+  ],
+  "install": [
+    "Baixe o APK ARM64 na página oficial de Releases e instale em um dispositivo com Android 8.0+ e GPU Vulkan compatível.",
+    "Use o seletor de arquivos do launcher para importar sua ROM própria da edição norte-americana de Mega Man 64 para Nintendo 64 (.z64, .v64 ou .n64).",
+    "Não há ROM nem save de jogo incluídos. Faça backup dos saves antes de trocar builds, pois outro package ID mantém armazenamento separado."
+  ],
+  "notes": "Projeto comunitário não oficial e sem afiliação com Capcom. O release mais recente consultado é v0.9.1-mobile.1; a instalação dessa nova embalagem ainda precisa de validação em cada aparelho. A capa usa a arte frontal NTSC de MegaMan 64 encontrada no The Cover Project; não há banner ou screenshots verificados no repositório mobile.",
+  "links": {
+    "github": "https://github.com/DevZer0D4Y/MegaMan64Recompiled-Mobile",
+    "releases": "https://github.com/DevZer0D4Y/MegaMan64Recompiled-Mobile/releases",
+    "download": "https://github.com/DevZer0D4Y/MegaMan64Recompiled-Mobile/releases/latest",
+    "tutorial": "https://github.com/DevZer0D4Y/MegaMan64Recompiled-Mobile/blob/main/MOBILE.md",
+    "upstream": "https://github.com/MegaMan64Recomp/MegaMan64Recompiled",
+    "coverSource": "https://www.thecoverproject.net/view.php?cover_id=6537"
+  },
+  "credit": {
+    "port": "DevZer0D4Y e colaboradores; upstream MegaMan64Recompiled",
+    "portUrl": "https://github.com/DevZer0D4Y/MegaMan64Recompiled-Mobile",
+    "original": "Capcom",
+    "originalUrl": "https://www.capcom.com/",
+    "game": "Mega Man 64 © Capcom"
+  },
+  "license": "GPL-3.0",
+  "type": "android",
+  "packageName": "com.devz.megaman64"
+}
